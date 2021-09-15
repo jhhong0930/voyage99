@@ -19,7 +19,7 @@ return jsonify({'reviews': dumps(reviews)})
 
 데이터를 받아서 ajax로 처리
 
-```html
+```javascript
     function show_review() {
         let isbn = {{isbn}}
         $.ajax({
