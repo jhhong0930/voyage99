@@ -1,0 +1,1 @@
+jwt token을 header에 담아서 보낼 때 key값을 'X-AUTH-TOKEN' 으로 보내줘야 JwtAuthenticationFilter에서 값을 받아올 수 있다
