@@ -23,5 +23,11 @@ private User user;
 @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
 @JsonBackReference
 private List<Recipe> recipeList;
+
+// 각 연관관계 매핑별 기본 fetch 타입
+// OneToMany: LAZY
+// ManyToOne: EAGER
+// OneToOne: EAGER
+// ManyToMany: LAZY
 ```
 
